@@ -74,7 +74,7 @@ int directory_delete(inode_t *di, const char *name) {
             return 0; // Deletion successful
         }
     }
-    return -ENOENT; // Entry not found
+    return -ENOENT; // entry not found
 }
 
 // List all entries in the directory
