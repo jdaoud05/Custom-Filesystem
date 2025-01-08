@@ -1,9 +1,4 @@
-/**
- * @file bitmap.h
- * @author CS3650 staff
- *
- * A bitmap interface.
- */
+
 #ifndef BITMAP_H
 #define BITMAP_H
 
