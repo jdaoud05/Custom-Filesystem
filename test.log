@@ -1,0 +1,14 @@
+make[1]: Entering directory '/root/p2-jamesandlee'
+mkdir -p mnt || true
+./nufs -s -f mnt data.nufs
+make[1]: Entering directory '/root/p2-jamesandlee'
+fusermount -u mnt || true
++ alloc_block() -> 1
++ alloc_block() -> 2
++ alloc_block() -> 3
++ alloc_block() -> 4
++ alloc_block() -> 5
++ alloc_block() -> 6
++ alloc_block() -> 7
+make[1]: Leaving directory '/root/p2-jamesandlee'
+make[1]: Leaving directory '/root/p2-jamesandlee'
